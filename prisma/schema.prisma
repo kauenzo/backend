@@ -17,7 +17,7 @@ model Trip {
   ends_at      DateTime
   is_confirmed Boolean       @default(false)
   created_at   DateTime      @default(now())
-  participant  Participant[]
+  participants Participant[]
   activities   Activity[]
   links        Link[]
 
